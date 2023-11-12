@@ -1,5 +1,4 @@
-
 let a=10
-let b=10
-let c=a+b
+  a--
+let c=a
 console.log(c);
