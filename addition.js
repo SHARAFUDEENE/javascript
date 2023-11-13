@@ -1,5 +1,9 @@
 
-let a=10
-let b=10
-let c=a+b
-console.log(c);
+var readlineSync = require('readline-sync');
+let a= parseInt(readlineSync.question('enter your first no '));
+let b=readlineSync.question('enter your name')
+
+
+
+console.log(a+b)
+
